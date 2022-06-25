@@ -31,11 +31,11 @@ border-radius: 4px;
 
 .Weather .currentTemperature {
     font-size: 64px;
-    color: black;
+    color: #474040;
 }
 
 .Weather .unit {
-        color: #212121;
+        color: #474040;
     font-size: 16px;
     font-weight: 400;
     position: relative;
@@ -43,12 +43,6 @@ border-radius: 4px;
     top: -34px;
 }
 
-.img {
-    display: inline-block;
-    margin-right: 10px;
-  height: 150px auto;
-
-}
 
 .Weather form {
     margin-bottom: 20px;
