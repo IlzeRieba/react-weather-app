@@ -11,6 +11,8 @@ function App() {
           {" "}
           open-sourced on GitHub{" "}
         </a>
+        and hosted on{" "}
+        <a href="https://jade-pegasus-9e9ab7.netlify.app/"> Netlify </a>
       </footer>
     </div>
   );
