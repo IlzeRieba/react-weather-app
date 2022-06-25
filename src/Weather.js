@@ -12,14 +12,14 @@ const [city , setCity] = useState(props.defaultCity);
     function handleResponse(response){
     console.log(response.data);
     setWeatherData({
-        ready:true,
+      ready: true,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       city: response.data.name,
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
       date: new Date(response.data.dt * 1000),
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}.png`,
     });
 }
 

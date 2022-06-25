@@ -43,12 +43,11 @@ border-radius: 4px;
     top: -34px;
 }
 
-.Weather .img {
-    height: 64px;
-    width: 64px;
+.img {
     display: inline-block;
     margin-right: 10px;
-    vertical-align: middle;
+  height: 150px auto;
+
 }
 
 .Weather form {
