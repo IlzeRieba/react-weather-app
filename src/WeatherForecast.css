@@ -8,5 +8,6 @@ color: #6d6d6d;
 } 
 
 .WeatherForecast-temperature-min {
-   opacity: 80%;
+   color: #6d6d6d;
+    opacity: 80%;
 }
